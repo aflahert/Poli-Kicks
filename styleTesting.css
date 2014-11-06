@@ -1,0 +1,51 @@
+
+body {
+font-family:"Lucida Console", Monaco, monospace;
+background-color: #E1FFA5;
+margin: 10px;
+padding:10px;
+font-size: 1em;
+align: center;
+}
+
+h1, h2{
+background-color: #7ACC29;
+text-align: center;
+}
+/*
+div.float {
+float: right;
+}
+*/
+
+#header {
+display: box;
+max-width: 1000px;
+background-color: blue;
+}
+
+.menu {
+list-style-type: none;
+padding: 10px;
+margin-left: 610px;
+position: absolute;
+top: 10px;
+background-color: red;
+}
+
+
+ul.menu_bottom{
+list-style-type: none;
+padding: 20px;
+margin: 20px;
+display: block;
+
+}
+
+img {
+border-width: 0;
+}
+
+#inline {
+display: inline;
+}
